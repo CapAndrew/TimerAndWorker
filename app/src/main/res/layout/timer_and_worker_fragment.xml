@@ -14,28 +14,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/someText"/>
-
-    <TextView
-        android:id="@+id/someText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="some text"
-        android:textAlignment="center"
-        android:textSize="30sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/time"
-        app:layout_constraintBottom_toTopOf="@+id/someButton"/>
-
-    <Button
-        android:id="@+id/someButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Change some text"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/someText"
         app:layout_constraintBottom_toTopOf="@+id/startTimer"/>
 
     <Button
@@ -45,7 +23,7 @@
         android:text="Start timer"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/someButton"
+        app:layout_constraintTop_toBottomOf="@+id/time"
         app:layout_constraintBottom_toBottomOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
